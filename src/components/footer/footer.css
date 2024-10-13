@@ -1,0 +1,26 @@
+.foot{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px  solid grey ;
+}
+.foot ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+@media(max-width:600px){
+    .foot{
+        display: block;
+        text-align: center;
+    }
+    .foot ul li{
+        margin: 10px;
+    }
+    .foot ul{
+        margin-top: 10px;
+    }
+
+}
